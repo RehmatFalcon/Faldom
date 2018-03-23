@@ -23,11 +23,8 @@ public class Builder implements BuilderInterface {
     private String url;
     private Action action;
 
-    public Builder()
-    {
-
-    }
-
+    public Builder(){}
+    
     public Builder(Context c){
         setContext(c);
     }
